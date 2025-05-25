@@ -1,6 +1,6 @@
 from flask import Flask
 from flask_restx import Api, Resource, reqparse
-from model_backend import predict_genre  # asegúrate que este nombre coincida
+from model_backend import predict_genre 
 
 app = Flask(__name__)
 

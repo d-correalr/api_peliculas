@@ -3,7 +3,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 # Cargar el modelo ensamblado
-with open("modelo_ensamble_final.pkl", "rb") as f:
+with open("modelo_ensamble_final_2.pkl", "rb") as f:
     modelo = pickle.load(f)
 
 clf_sbert = modelo["clf_sbert"]
